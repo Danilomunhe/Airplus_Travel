@@ -1,0 +1,67 @@
+.transportes{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #00ff71 0, #00ff71 50%, white 50%);
+}
+.transportes-container{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    font-size: 2.5rem;
+}
+.card{
+    width: 20%;
+    height:80%;
+    background-color: white;
+    border-radius: 1000px 1000px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.icone-card{
+    margin-top: 10%;
+    width:85%;
+    height: 60%;
+    background-color: #00ff71;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius:100%;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icone-card i {
+    font-size: 5rem;
+    transition: all 1s;
+}
+.icone-card i:hover{
+    color: blue;
+    cursor: pointer;
+}
+.textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    gap: 10px;
+}
+.textos h2{
+    font-size: 2rem;
+    color: #00ff71;
+    font-weight: bolder;
+}
