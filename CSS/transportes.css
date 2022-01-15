@@ -3,8 +3,6 @@
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    justify-content: center;
-    align-items: center;
     background-image: linear-gradient(to bottom, #00ff71 0, #00ff71 50%, white 50%);
 }
 .transportes-container{
@@ -34,7 +32,7 @@ header{
 .icone-card{
     margin-top: 10%;
     width:85%;
-    height: 60%;
+    height: 50%;
     background-color: #00ff71;
     border-bottom-left-radius: 100%;
     border-bottom-right-radius:100%;
