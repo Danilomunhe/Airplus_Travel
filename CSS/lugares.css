@@ -1,11 +1,11 @@
-.experiencias{
+.lugares{
     display: flex;
     flex-direction: column;
     width: 100vw;
     height: 100vh;
     background-image: linear-gradient(to bottom, white 0, white 50%, #00ff71 50%);
 }
-.experiencias-container{
+.lugares-container{
     display: flex;
     flex-direction: row;
     width: 100%;
