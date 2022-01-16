@@ -1,0 +1,75 @@
+.experiencias{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #00ff71;
+}
+.experiencias-container{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card-experiencias{
+    width: 25%;
+    height: 95%;
+    background-color: white;
+    border-radius: 1000px 1000px 1000px 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagem{
+    width: 50%;
+    height: 30%;
+    margin-top: 10%;
+    background-color: black;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius:100%;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+}
+.imagem img{
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius:100%;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+}
+.textos-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textos-card p {
+    width: 200px;
+    font-size: 1rem;
+}
+.textos-card h2{
+    font-size: 2.5rem;
+    color: #00ff71;
+}
+.textos-card h3{
+    font-size: 2rem;
+    font-style: italic;
+    color: #00ff71;
+}
+.redes-sociais{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.redes-sociais i {
+    font-size: 2.5rem;
+    cursor: pointer;
+    transition: all 1s;
+}
+.redes-sociais i:hover{
+    color: #00ff71;
+}
