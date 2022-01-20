@@ -70,5 +70,5 @@ input{
 }
 textarea{
     color: white;
-    font-size: 1rem;
+    resize: none;
 }
