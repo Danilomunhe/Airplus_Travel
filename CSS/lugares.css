@@ -5,6 +5,12 @@
     height: 100vh;
     background-image: linear-gradient(to bottom, white 0, white 50%, #00ff71 50%);
 }
+.lugares header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+}
 .lugares-container{
     display: flex;
     flex-direction: row;

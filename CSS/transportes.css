@@ -12,7 +12,7 @@
     justify-content: space-evenly;
     align-items: center;
 }
-header{
+.transportes header{
     display: flex;
     justify-content: center;
     align-items: center;

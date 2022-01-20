@@ -5,6 +5,12 @@
     flex-direction: column;
     background-color: #00ff71;
 }
+.experiencias header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+}
 .experiencias-container{
     width: 100%;
     height: 90%;

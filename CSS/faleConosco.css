@@ -1,0 +1,74 @@
+.faleConosco{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #00ff71 0, #00ff71 50%,  white 50%);
+}
+.faleConosco header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+}
+.container-faleConosco{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.imagem-faleConosco{
+    border-radius: 10px;
+    width: 30%;
+    height: 100%;
+    margin-left: 10%;
+}
+.imagem-faleConosco img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.formulario{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.formulario h2{
+    font-size: 3rem;
+    text-align: center;
+}
+.campos{
+    width: 100%;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    margin-top: 10%;
+    align-items: center;
+}
+.formulario h2{
+    color: white;
+}
+label{
+    font-size: 2rem;
+    color: #00ff71;
+}
+.field{
+    background-color: transparent;
+    border: none;
+    width: 20rem;
+    height: 2rem;
+    border-bottom: 2.5px dashed #00ff71;
+    outline: none;
+    transition:  all 1s;
+}
+.field:focus{
+    border-bottom: 2.5px solid #00ff71;
+}
+input{
+    color: white;
+    font-size: 1rem;
+}
+textarea{
+    color: white;
+    font-size: 1rem;
+}
