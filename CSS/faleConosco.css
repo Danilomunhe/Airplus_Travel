@@ -84,6 +84,7 @@ label{
 textarea{
     color: white;
     resize: none;
+    font-size: 1rem;
 }
 select{
     margin-top: 2%;
@@ -93,6 +94,7 @@ select{
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    text-align: center;
 }
 .tipoDeMensagem{
     display: flex;
@@ -107,4 +109,5 @@ select{
     border: none;
     border-radius: 10px;
     width: 50%;
+    cursor: pointer;
 }
