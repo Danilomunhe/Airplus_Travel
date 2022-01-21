@@ -44,6 +44,7 @@
     flex-direction: column;
     margin-top: 10%;
     align-items: center;
+    gap: 5px;
 }
 .formulario h2{
     color: white;
@@ -83,6 +84,20 @@ label{
 textarea{
     color: white;
     resize: none;
+}
+select{
+    margin-top: 2%;
+    color: black;
+    background-color: #00ff71;
+    height: 2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.tipoDeMensagem{
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 .botaoEnviar{
     color: black;

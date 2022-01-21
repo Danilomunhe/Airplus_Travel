@@ -171,9 +171,19 @@
                 <input type="text" class="field1 caixaDeTexto" >
                 <label>E-mail:</label>
                 <input type="email" class="field1 caixaDeTexto">
+                <div class="tipoDeMensagem">
+                <label>Escolha o tipo da mensagem:</label>
+                <select name="itensDeAvaliação" id="">
+                    <option value="" selected>Selecione um item</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="critica">Crítica</option>
+                    <option value="elogio">Elogio</option>
+                    <option value="sugestão">Sugestão</option>
+                </select>
+                </div>
                 <label>Mensagem</label>
                 <textarea name="mensagem" id="#mensagem-field" class="field2" cols="15" rows="15"></textarea>
-                <input type="submit" value="Enviar" class="botaoEnviar"> Enviar
+                <input type="submit" value="Enviar" class="botaoEnviar">
             </form>
             </div>
             </div>
