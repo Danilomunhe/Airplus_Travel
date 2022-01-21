@@ -70,7 +70,10 @@ label{
     outline: none;
     transition:  all 1s;
 }
-.field:focus{
+.field1:focus{
+    border-bottom: 2.5px solid #00ff71;
+}
+ .field2:focus{
     border-bottom: 2.5px solid #00ff71;
 }
 input{
