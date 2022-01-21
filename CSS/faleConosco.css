@@ -76,11 +76,20 @@ label{
  .field2:focus{
     border-bottom: 2.5px solid #00ff71;
 }
-input{
+.caixaDeTexto{
     color: white;
     font-size: 1rem;
 }
 textarea{
     color: white;
     resize: none;
+}
+.botaoEnviar{
+    color: black;
+    background-color: #00ff71;
+    font-size: 1.5rem;
+    margin-top: 3%;
+    border: none;
+    border-radius: 10px;
+    width: 50%;
 }
