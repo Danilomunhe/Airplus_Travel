@@ -11,3 +11,30 @@
     align-items: center;
     font-size: 2.5rem;
 }
+.contatos-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+.logo-contatos{
+    width: 25%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00ff71;
+    box-shadow: 1px 1px 1px 20px white;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+}
+.logo-contatos i {
+    font-size: 6rem;
+    transition: all 1s;
+}
+.logo-contatos i:hover{
+    color: blue;
+}
