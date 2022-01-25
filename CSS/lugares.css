@@ -43,3 +43,12 @@
     filter: grayscale(0);
     transform: scale(115%);
 }
+@media (max-width: 720px){
+    .lugares-container{
+        flex-direction: column;
+    }
+    .projetos{
+        width: 50%;
+        height: 30%;
+    }
+}

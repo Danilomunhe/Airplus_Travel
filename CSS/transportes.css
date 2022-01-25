@@ -63,3 +63,17 @@
     color: #00ff71;
     font-weight: bolder;
 }
+@media (max-width:720px){
+    .card{
+       background-color: transparent;
+    }
+    .icone-card{
+        background-color: transparent;
+    }
+    .transportes-container{
+        flex-direction: column;
+    }
+    .textos{
+        display: none;
+    }
+}

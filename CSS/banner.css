@@ -1,7 +1,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css");
 
 body{
-    min-width: 100vh;
+    min-width: 100vw;
     min-height: 100vh;
 }
 .banner{
@@ -72,4 +72,18 @@ h1{
     background-blend-mode: darken;
     border-radius: 100%;
     cursor: pointer;
+}
+@media(max-width:720px){
+    .banner-header{
+      justify-content: flex-start;
+      font-size: 1rem;
+    }
+   .menu{
+        display: none;    }
+    .banner p{
+        font-size: 1rem;
+        width: 300px;
+        text-align: center;
+        color: white;
+    }
 }

@@ -111,3 +111,8 @@ select{
     width: 50%;
     cursor: pointer;
 }
+@media (max-width:720px){
+    .faleConosco{
+        display: none;
+    }
+}

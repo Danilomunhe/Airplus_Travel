@@ -4,3 +4,33 @@ footer{
     height: 15vh;
     background-color: black;
 }
+.icones{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icones i{
+    color: white;
+    font-size: 3.5rem;
+    transition: all 1s;
+}
+.icones i:hover {
+    color: #00ff71;
+}
+.texto-footer{
+    color: #00ff71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+@media (max-width:720px){
+    .texto-footer{
+        display: none;
+    }
+    .icones{
+        width: 100%;
+    }
+}

@@ -79,3 +79,8 @@
 .redes-sociais i:hover{
     color: #00ff71;
 }
+@media (max-width:720px) {
+    .experiencias{
+        display: none;
+    }
+}
