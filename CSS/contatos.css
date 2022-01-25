@@ -38,10 +38,12 @@
 .logo-contatos i:hover{
     color: blue;
 }
+@media (max-width:720px){
 .contatos-container{
     flex-direction: column;
 }
 .logo-contatos{
     width: 50%;
     height: 30%;
+}
 }
